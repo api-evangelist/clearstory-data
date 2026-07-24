@@ -1,7 +1,23 @@
 aid: clearstory-data
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clearstory-data.png
 name: Clearstory Data
-description: Clearstory Data is a company surfaced as a portfolio company of a16z, gv and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Clearstory Data was a big-data analytics startup (Menlo Park / Mountain View, CA) that built
+  a cloud service for blending and visualizing enterprise and third-party data, backed by a16z, GV (Google
+  Ventures), Kleiner Perkins and Khosla Ventures. It was acquired by Alteryx in 2016 and is no longer an
+  independent company. Its former domain (clearstorydata.com) has lapsed and now 301-redirects to unrelated
+  parked/spam sites, so it publishes no developer portal, documentation, or API. Retained in the API
+  Evangelist network as a historical/defunct portfolio record; no live artifacts are producible.
 url: https://raw.githubusercontent.com/api-evangelist/clearstory-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +26,31 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-alteryx-2016; former domain clearstorydata.com lapsed, redirects to parked/spam
+x-acquired-by: Alteryx
+x-enriched: '2026-07-18'
+x-enrichment-result: no-live-surface (dead domain, no API/docs/OpenAPI; nothing to search/generate/derive)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Analytics
+- Big Data
+- Data Analytics
+- Business Intelligence
+- Data Visualization
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
