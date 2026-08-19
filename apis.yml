@@ -31,7 +31,7 @@ x-status-reason: acquired-by-alteryx-2016; former domain clearstorydata.com laps
 x-acquired-by: Alteryx
 x-enriched: '2026-07-18'
 x-enrichment-result: no-live-surface (dead domain, no API/docs/OpenAPI; nothing to search/generate/derive)
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
